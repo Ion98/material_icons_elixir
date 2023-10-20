@@ -55,7 +55,7 @@ defmodule MaterialIcons.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_live_view, "~> 0.18.11"},
+      {:phoenix_live_view, "~> 0.20.1"},
       {:httpoison, "~> 2.0", only: [:dev, :test]},
       {:floki, "~> 0.34.0", only: [:dev, :test]},
       {:ex_doc, "~> 0.29", only: :dev, runtime: false}
